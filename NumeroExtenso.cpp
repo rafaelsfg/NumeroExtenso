@@ -26,7 +26,7 @@
 
 
 //// Função que recebe um número inteiro e retorna um texto do número por extenso
-void Extenso(const int num, char *extenso)
+void numExtenso(const int num, char *extenso)
 {
     char numero[15] = "";
     
@@ -184,7 +184,7 @@ int main(int argc, char** argv)
     
     int i = 123456789;
 
-    Extenso(i, str);
+    numExtenso(i, str);
 
     printf("%d - \"%s\"\n", i, str);
     
