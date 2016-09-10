@@ -1,8 +1,8 @@
 # NumeroExtenso
 Retorna uma string contendo o texto do número por extenso
 
-void Extenso(const int num, char *extenso)
+void numExtenso(const int num, char *extenso)
 
-num -> Um número inteiro
+num -> Um número inteiro menor que 1 bilhão.
 
-extenso -> Um ponteiro para um string que receberá o texto do número por extenso
+extenso -> Um ponteiro para um string que receberá o texto do número por extenso.
