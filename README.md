@@ -1,5 +1,5 @@
 # NumeroExtenso
-Retorna uma string contendo o texto do número por extenso
+Retorna uma string contendo o texto do número informado por extenso
 
 void numExtenso(const int num, char *extenso)
 
